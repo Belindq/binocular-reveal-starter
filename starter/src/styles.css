@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background: #000c0f;
+}
+
+.stage {
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+}
+
+.scene {
+  position: absolute;
+  inset: 0;
+}
+
+.underwater {
+  background: linear-gradient(180deg, #7af1f5, #4fadf0 38%, #3b91ee 72%, #185292);
+}
+
+.sunset {
+  background: linear-gradient(180deg, #f4dc64 5.5555%, #f08b42 31.406%, #f57b7b 76.843%, #dd5555 118.44%);
+}
+
+.art-layer {
+  position: absolute;
+  overflow: hidden;
+}
+
+.art-layer img {
+  position: absolute;
+  display: block;
+}
+
+.mobile-art {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .desktop-art {
+    display: none;
+  }
+
+  .mobile-art {
+    display: block;
+  }
+
+  .sunset {
+    background: linear-gradient(180deg, #d7ce8a, #f4a871 35.306%, #e58080 78.707%, #dd5555 118.44%);
+  }
+}
+
+.underwater-opening {
+  background: linear-gradient(180deg, #a7fbe9, #7af1f5 32%, #3b91ee 72%, #185292);
+}
+
+.opening {
+  font-family: system-ui, sans-serif;
+}
+
+.opening-copy {
+  position: absolute;
+  top: 21%;
+  left: 56%;
+  width: min(680px, 84%);
+  transform: translateX(-50%);
+  color: #337681;
+}
+
+.opening-copy h1 {
+  margin: 0 0 12px;
+  font-size: clamp(32px, 3.2vw, 48px);
+  font-weight: 550;
+  line-height: 1.12;
+}
+
+.opening-copy p {
+  margin: 0;
+  font-size: clamp(16px, 1.33vw, 20px);
+  line-height: 1.55;
+}
+
+.coral {
+  position: absolute;
+  height: auto;
+  pointer-events: none;
+}
+
+.coral-left {
+  left: 8%;
+  bottom: 42%;
+  width: 9%;
+}
+
+.coral-right {
+  right: -1%;
+  bottom: 31%;
+  width: 17%;
+}
+
+@media (max-width: 700px) {
+  .opening-copy {
+    top: 17%;
+    left: 63%;
+    width: 86%;
+  }
+
+  .coral-left {
+    left: 4%;
+    width: 17%;
+  }
+
+  .coral-right {
+    width: 33%;
+  }
+}

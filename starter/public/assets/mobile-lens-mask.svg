@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="519" height="978" viewBox="0 0 519 978" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Binocular mask" opacity="0.85" filter="url(#filter0_f_0_4)">
+<path d="M504 963H15V591.374C55.0444 686.899 149.435 754 259.5 754C369.565 754 463.956 686.899 504 591.374V963ZM504 386.625C463.955 291.101 369.564 224 259.5 224C149.436 224 55.0446 291.101 15 386.625V15H504V386.625Z" fill="#000C0F"/>
+</g>
+<defs>
+<filter id="filter0_f_0_4" x="0" y="0" width="519" height="978" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_0_4"/>
+</filter>
+</defs>
+</svg>
