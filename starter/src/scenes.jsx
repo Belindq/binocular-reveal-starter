@@ -49,7 +49,16 @@ export function Underwater({ opening = false }) {
 }
 
 export function Sunset() {
-  return <div className="scene sunset" aria-hidden="true" />;
+  const assets = `${import.meta.env.BASE_URL}assets/`;
+
+  return (
+    <div className="scene sunset" aria-hidden="true">
+      <picture className="scene">
+        <source media="(max-width: 700px)" srcSet={`${assets}sunset-mobile.png`} />
+        <img className="sunset-art" src={`${assets}sunset-desktop.png`} alt="" />
+      </picture>
+    </div>
+  );
 }
 
 export function OpeningScene() {

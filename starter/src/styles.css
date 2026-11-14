@@ -22,6 +22,12 @@ body {
   background: linear-gradient(180deg, #f4dc64 5.5555%, #f08b42 31.406%, #f57b7b 76.843%, #dd5555 118.44%);
 }
 
+.sunset-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .art-layer {
   position: absolute;
   overflow: hidden;
